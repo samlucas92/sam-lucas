@@ -5,6 +5,7 @@ import{
 }from 'react-router-dom';
 
 import Navigation from './Components/NavigationComponent/navigation';
+import Hero from './Components/HeroComponent/hero';
 import Homepage from './Components/Pages/homepage';
 
 import './App.css';
@@ -17,6 +18,7 @@ class App extends Component {
 					<div className="ie-fix">
 						<div className="wrapper">
 							<Navigation />
+              <Hero />
 							<Route exact path='/' component={Homepage}/>
 						</div>
 					</div>
