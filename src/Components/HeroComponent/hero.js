@@ -7,18 +7,14 @@ import{
 class Navigation extends Component {
     render(){
         return (
-            <div className="hero-area">
-                <div className="hero-name">
-                    <h1>Hero Area H1</h1>
-                </div>
-
-                <div className="hero-blurb">
-                    Blurb - Scroll Down For More
-                </div>
-                
-                <div className="hero-arrow">
-                    <div className="down-arrow">
-                    *down arrow*
+            <div className="hero">
+                <div className="overlay">
+                    <div className="hero-text">
+                        <h1>Dev react playground</h1>
+                        <p>
+                            This is a site that I will be using to learn, test and display react apps. Also going to try and learn css flexbox too.
+                            Most of the time I'd imagine this will be broken and messy. 
+                        </p>
                     </div>
                 </div>
             </div>
